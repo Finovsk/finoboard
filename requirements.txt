@@ -1,0 +1,6 @@
+PySide6>=6.7
+sounddevice>=0.4.6
+pydub>=0.25.1
+numpy>=1.24
+pynput>=1.7.7
+audioop-lts; python_version >= "3.13"

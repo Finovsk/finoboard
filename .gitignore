@@ -1,0 +1,64 @@
+# === Python básico ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+env/
+.venv*/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# === PyInstaller ===
+# Pasta de build
+build/
+# Pasta dist com executáveis gerados
+dist/
+# Arquivo .spec usado pelo PyInstaller
+*.spec
+
+# === IDE / Editor ===
+# VSCode
+.vscode/
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# === Sistema operacional ===
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Linux
+.Trash-*
+
+# === Projeto específico ===
+# Presets gerados pelo usuário
+*.json
+# Arquivos de áudio de teste locais
+*.mp3
+*.wav
+
+# === Outras exclusões ===
+# Arquivos de configuração sensíveis
+*.env
