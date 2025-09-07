@@ -129,29 +129,8 @@ pyinstaller --noconfirm --clean finoboard.spec
 
 ---
 
-## 🐛 Solução de problemas
-
-- **Start do .exe está lento (one-file)**  
-  - Prefira **one-dir** para uso diário, ou  
-  - Defina `runtime_tmpdir` no `.spec` e faça whitelist no AV, e/ou  
-  - Desative **UPX** no `.spec`.
-
-- **FFmpeg não encontrado (dev)**  
-  - Instale via Chocolatey ou coloque `ffmpeg/ffprobe` no `PATH`.
-
----
-
-## 🤝 Contribuindo
-
-1. Abra uma issue descrevendo bug/feature.  
-2. Crie um branch (`feat/...` ou `fix/...`).  
-3. Faça commits claros (ex.: `feat(ui): melhorar destaque de hotkeys`).  
-4. Abra PR vinculando à issue.
-
----
-
 ## ⚖️ Licenças
 
 - Este projeto usa bibliotecas de terceiros (Qt/PySide6, sounddevice, pydub, numpy, pynput).  
 - **FFmpeg** pode ser redistribuído conforme a licença do pacote utilizado.  
-- Consulte os arquivos/licenças correspondentes.
+- Francamente eu não faço ideia do tipo de licença, mas pode copiar e usar à vontade
