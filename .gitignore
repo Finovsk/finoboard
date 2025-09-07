@@ -25,8 +25,6 @@ env/
 build/
 # Pasta dist com executáveis gerados
 dist/
-# Arquivo .spec usado pelo PyInstaller
-*.spec
 
 # === IDE / Editor ===
 # VSCode
